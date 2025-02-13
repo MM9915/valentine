@@ -1,0 +1,52 @@
+body{
+    background-image: url(/test/IMG_2969_Original.PNG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: cover;
+}
+.kocham {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    margin-top: 50px;
+}
+h1{
+    position: absolute;
+    top: 10%;
+    font-size: 60px;
+    transform: rotate(15deg);
+}
+.hearts {
+    text-align: center;
+    font-size: 60px;
+    animation: heart 1s ease-in-out infinite;
+}
+
+@keyframes heart {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(2);
+    }
+    100%{
+        transform: scale(1);
+    }
+
+}
+
+footer {
+    position: absolute;
+    top: 90%;
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
